@@ -1,0 +1,15 @@
+/* * es un selector global, es decir, las propiedades que le pongas se aplicaran a toda la pagina */
+/* *{
+    background-color: orangered;
+} */
+
+h1 , p{
+    font-size: 60px;
+    color: blue;
+    text-align: center;
+}
+
+p{
+    font-size: 8px;
+    color: red;
+}
