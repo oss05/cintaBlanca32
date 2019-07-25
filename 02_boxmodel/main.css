@@ -3,7 +3,7 @@
     background-color: orangered;
 } */
 
-h1 , p{
+/* h1 , p{
     font-size: 60px;
     color: blue;
     text-align: center;
@@ -12,4 +12,41 @@ h1 , p{
 p{
     font-size: 8px;
     color: red;
+} */
+
+.titulo{
+    border: solid 2px blue;
+}
+.parrafo{
+    border: solid 2px red;
+}
+
+.contenedor{
+    border: solid 2px green;
+
+}
+.saludo{
+    border: solid 2px violet;
+    display: inline;
+
+}
+
+.nombre{
+    border: solid 2px orange;
+    display: inline;
+    margin-left: 288px;
+}
+
+.contenedor2{
+    border: solid 2px purple;
+    width: 500px;
+    height: 200px;
+}
+
+.nombreR{
+    display: inline;
+}
+.imgR{
+    height: 100px;
+    width: 100px;
 }
