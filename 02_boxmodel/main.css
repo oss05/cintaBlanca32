@@ -14,7 +14,7 @@ p{
     color: red;
 } */
 
-.titulo{
+/* .titulo{
     border: solid 2px blue;
 }
 .parrafo{
@@ -49,4 +49,21 @@ p{
 .imgR{
     height: 100px;
     width: 100px;
+} */
+
+/* ------repaso box model------- */
+
+.example-container{
+    border: solid 1px rebeccapurple;
+}
+
+p{
+    border: solid 1px rgb(68, 153, 51);
+    /* display: inline; */
+    display: inline-block;
+}
+
+a{
+    border: solid 1px orange;
+    /* display: block; */
 }

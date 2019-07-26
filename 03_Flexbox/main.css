@@ -1,0 +1,26 @@
+.flex-container{
+    border: solid 1px green;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* para mover en el eje x utilizo: 
+
+justify-content: flex-start , center , flex-end, space-around , space-between;
+
+para mover en el eje y utilizo: 
+
+align-items: flex-start , center , flex-end;
+
+flex-direction: column , row;
+*/
+
+.cajas-hijas{
+    border: solid 1px rgb(0, 2, 128);
+    width: 100px;
+    height: 100px; 
+}

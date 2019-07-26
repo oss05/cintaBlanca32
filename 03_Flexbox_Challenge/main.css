@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.abuelo {
+    border: solid 3px;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padre {
+    border: solid 1px red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hijo {
+    border: solid 1px rgb(229, 255, 0);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nieto{
+    border: solid 1px rgb(255, 0, 106);
+    width: 10px;
+    height: 10px;
+}
+
+.madre {
+    border: solid 1px rgb(38, 0, 255);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija {
+    border: solid 1px rgb(0, 238, 255);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nieta{
+    border: solid 1px rgb(255, 0, 212);
+    width: 10px;
+    height: 10px;
+}
