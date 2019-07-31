@@ -32,12 +32,33 @@ let perrito = 'perritoSalcicha123'
 
 //And && - or ||
 
-let edad = prompt('Ingreesa tu edad')
+// let edad = prompt('Ingreesa tu edad')
 
-if (edad <= 15) {
-    console.log('No puedes conducir')
-} else if (edad == 16 || edad == 17) {
-    console.log('Puedes sacar tu permiso')
-} else {
-    console.log('Puedes conducir')
-}
+// if (edad <= 15) {
+//     console.log('No puedes conducir')
+// } else if (edad == 16 || edad == 17) {
+//     console.log('Puedes sacar tu permiso')
+// } else {
+//     console.log('Puedes conducir')
+// }
+
+
+// let antecedentes = prompt("tienes antecedentes?")
+// antecedentes = antecedentes.toUpperCase()
+// console.log(antecedentes);
+
+// if(antecedentes === "NO"){
+//     console.log("Si aplica")
+// }else if(antecedentes === "SI"){
+//     let tiempo = prompt("Cuanto tiempo ha pasado?")
+//     if(tiempo >= 10){
+//         console.log("Esta bien te damos chance")
+//     }else{
+//         console.log("no aplicas")
+//     }
+// }
+// else{
+//     console.log("ese no es un campo valido")
+// }
+
+
