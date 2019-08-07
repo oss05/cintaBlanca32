@@ -1,0 +1,61 @@
+/* ---------nav------ */
+.custom-logo{
+    width: 60px;
+}
+
+.custom-input{
+    border-radius: 0;
+    background-color: #000;
+}
+
+.custom-input:focus{
+    background-color: #000;
+    border: solid 1px #fff;
+}
+
+.custom-input::placeholder{
+    color: white;
+}
+
+.custom-nav-button{
+    background-color: #000;
+    border-radius: 0;
+    color: white;
+    border: solid 1px white;
+}
+
+/* --------carousel--------- */
+
+.custom-carousel-img{
+    /* width: 500px !important; */
+    height: 100vh;
+}
+
+h2{
+    color: #fff;
+}
+
+.card{
+    background-color: #000;
+}
+
+.card > img {
+    border: solid 1px white;
+}
+
+.card-body > h5{
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-body > a {
+    background-color: #000;
+    color: #fff;
+    border: solid 1px white;
+    border-radius: 0;
+}
+
+.card-body > a:hover {
+    background-color: #fff;
+    color: #000;
+}
